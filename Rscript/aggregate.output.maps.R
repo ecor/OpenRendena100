@@ -1,4 +1,27 @@
 #!/usr/bin/env Rscript
+# file aggregate.output.maps.R
+#
+# This file makes 2-monthly aggregation of some GEOtop output maps returned by daily frequancy.
+#
+# author: Emanuele Cordano on 2015 (28-07-2016)
+#
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+###############################################################################
+
+
+
 
 rm(list=ls())
 
@@ -7,11 +30,6 @@ library(sp)
 
 Sys.setenv(LANGUAGE='en')
 Sys.setenv(LC_TIME='en_US.UTF-8')
-
-#wpath <- "/media/ecor/GONGOLO/simulazioni/rendena100m_20140930" ###"F:/rendena100m_sim"  #put the directory of the folder with the maps
-#wpath <- "/home/ecor/attivita/2014/simulazioni_new/rendena100m_20140930"
-#wpath <- "/media/ecor/GONGOLO/simulazioni/rendena100m_maps1998_2002"
-#wpath <- "/Volumes/CAUCASO/GONGOLO/keu_cordano/rendena100_kore"
 
 wpath <- "/media/ecor/CAUCASO/GONGOLO/keu_cordano/rendena100_kore_v2"
 
