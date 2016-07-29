@@ -31,8 +31,8 @@ library(sp)
 Sys.setenv(LANGUAGE='en')
 Sys.setenv(LC_TIME='en_US.UTF-8')
 
-wpath <- "/media/ecor/CAUCASO/GONGOLO/keu_cordano/rendena100_kore_v2"
-
+##wpath <- "/home/ecor/CAUCASO/GONGOLO/keu_cordano/rendena100_kore_v2"
+wpath <- "/home/ecor/rendena100_sim/trial/rendena100_trial002_in"
 tz <-  "Etc/GMT-1"  #set time zone
 format_date <- "%Y-%m-%d %H:%M"
 
@@ -72,7 +72,7 @@ ndays <- function(x,valmin=50,...) {
 aggregate_funs <- c("mean","sd","q25","q75","q90","median","max","min","ndays")
 ###aggregate_funs <- c("ndays")
 
-wpathout <- "/home/ecor/Dropbox/R-packages/OpenRendena100/Rscript/test"
+wpathout <- "/home/ecor/local/OpenRendena100/Rscript/monthly_maps"
 
 maggr <- list() 
 
