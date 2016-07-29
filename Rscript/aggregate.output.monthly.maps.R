@@ -94,7 +94,7 @@ i_months <- unique(i_month)
 ###endy   <- as.POSIXct(sprintf("%d-10-31 00:00",year),format=format_date,tz=tz)
 
 ####stop("MI  FERMO QUI")
-for (im in i_months[1:3]) {
+for (im in i_months) {
 		
 	
 #	winter_start <- as.POSIXct(sprintf("%d-11-01 00:00",year-1),format=format_date,tz=tz)
