@@ -2,8 +2,28 @@
 # 
 # Author: ecor
 ###############################################################################
-rm(list=ls())
+#!/usr/bin/env Rscript
+# file aggregate.output.monthly.maps.R
+#
+# This file extracts value of some GEOtop output maps returned with daily frequency.
+#
+# author: Emanuele Cordano on 2015 (18-08-2016)
+#
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+###############################################################################
+rm(list=ls())
 
 library(rgdal)
 library(raster)
@@ -11,7 +31,7 @@ library(stringr)
 library(geotopbricks)
 
 
-rm(list=ls())
+
 
 
 library(sp)
@@ -53,7 +73,7 @@ i_months <- unique(i_month)
 
 
 
-for (mon in i_months[1:3]) {
+for (mon in i_months) {
 	
 	
 	indices <- which(i_month==mon)
