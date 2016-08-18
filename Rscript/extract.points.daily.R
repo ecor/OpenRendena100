@@ -19,8 +19,8 @@ library(sp)
 Sys.setenv(LANGUAGE='en')
 Sys.setenv(LC_TIME='en_US.UTF-8')
 
-wpath <- "/media/ecor/CAUCASO/GONGOLO/keu_cordano/rendena100_kore_v2"
-##wpath <- "/home/ecor/rendena100_sim/trial/rendena100_trial002_in"
+##wpath <- "/media/ecor/CAUCASO/GONGOLO/keu_cordano/rendena100_kore_v2"
+wpath <- "/home/ecor/rendena100_sim/trial/rendena100_trial002_in"
 tz <-  "Etc/GMT-1"  #set time zone
 format_date <- "%Y-%m-%d %H:%M"
 
