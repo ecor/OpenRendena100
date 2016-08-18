@@ -90,13 +90,14 @@ time_index <- seq(from=start,to=end,by=3600*24)[-1] ### The 'start'
 i_month <-  as.character(time_index,format="%Y-%m")
 i_months <- unique(i_month)
 
+stop()
 ##starty <- as.POSIXct(sprintf("%d-11-01 00:00",years[1]),format=format_date,tz=tz)
 ###endy   <- as.POSIXct(sprintf("%d-10-31 00:00",year),format=format_date,tz=tz)
 
 ####stop("MI  FERMO QUI")
 for (im in i_months) {
 		
-	
+	print(im)
 #	winter_start <- as.POSIXct(sprintf("%d-11-01 00:00",year-1),format=format_date,tz=tz)
 ###	winter_end   <- as.POSIXct(sprintf("%d-05-01 00:00",year),format=format_date,tz=tz)
 #	winter_end   <- as.POSIXct(sprintf("%d-10-31 00:00",year),format=format_date,tz=tz)
