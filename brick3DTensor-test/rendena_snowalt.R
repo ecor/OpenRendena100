@@ -6,7 +6,8 @@
 library(geotopbricks)
 library(reshape2)
 
-wpath <- '/home/ecor/Dropbox/R-packages/geotopbricks_simulation/rendena'
+wpath <- '/home/ecor/rendena100_sim/trial/rendena100_trial002_in'
+####'/home/ecor/Dropbox/R-packages/geotopbricks_simulation/rendena'
 
 alt_map <-  get.geotop.inpts.keyword.value("DemFile",raster=TRUE,wpath=wpath)
 aspect_map <- get.geotop.inpts.keyword.value("AspectMapFile",raster=TRUE,wpath=wpath)
