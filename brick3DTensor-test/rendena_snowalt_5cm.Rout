@@ -19132,7 +19132,7 @@ As  2015-06-30
 + 			
 + 			
 + 			
-+ 		},alt=alt_map,asp=aspect_cat_map,aspcat=aspect_cat,valmin=100)
++ 		},alt=alt_map,asp=aspect_cat_map,aspcat=aspect_cat,valmin=50)
 > 
 > 
 > df <- melt(me)
@@ -19191,10 +19191,10 @@ As  2015-06-30
 > #df <- df[1:length(alt_snow),]
 > #df$SnowAlt <- alt_snow
 > 
-> file <- './output/alt_snow_vs_time_daily.csv' ###'/home/ecor/Dropbox/R-packages/geotopbricks/inst/brick3DTensor-test/output/alt_snow_vs_time_daily.csv' 
+> file <- './output/alt_snow50_vs_time_daily.csv' ###'/home/ecor/Dropbox/R-packages/geotopbricks/inst/brick3DTensor-test/output/alt_snow_vs_time_daily.csv' 
 > 
 > write.table(x=df,file=file,sep=",",row.names=FALSE,quote=FALSE)
 > 
 > proc.time()
     user   system  elapsed 
-6190.919 3328.761 9963.544 
+6207.968 3367.516 9592.255 
